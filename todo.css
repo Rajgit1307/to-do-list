@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+.main{
+    display: grid;
+    grid-template-rows: 50px auto 50px;
+    height: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+.header{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.jira{
+    margin-left: 10px;
+}
+.btn{
+    margin-left: auto;
+    
+}
+.btn .plus
+{
+    height: 50px;
+    width: 50px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size:xx-large;
+    font-weight: bolder;
+    border: 1px solid black;
+    margin-right: 10px;
+    
+}
+
+
+
+.footer{
+    background-color:#E6EEFF;
+}
+.content{
+    background-color:#EFEAE2;
+    
+}
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    
+    /* background-color: lightblue; */
+}
+.box .box-header{
+    width: 100%;
+    height: 30px;
+    background-color:#F0F2F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.box-header .heading{
+    margin: 3px;
+    padding:2px;
+    
+
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-header .btn-container{
+    /* margin: px; */
+    padding: 4px;
+    height: 30px;
+    width: 35px;
+    
+
+}
+.btn-container{
+    display: flex;
+    margin-left:auto;
+    justify-content:center;
+    align-items:center;
+    margin-right: 4px;
+ 
+}
+.btn-container div{
+    background-color: white;
+    margin-right: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    
+}
+.box .textarea{
+    height: 85%;
+    width: 100%;
+    outline: none;
+    border: none;
+    
+
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(7,2fr);
+    
+    
+}
+.dailog-box{
+     
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(1px);
+    
+    
+    
+}
+.dailog{
+    /* display: none; */
+    height: 300px;
+    width: 300px;
+    background-color:#bbbb;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px black;
+    border: none;
+   
+}
+.dailog .dailog-header{
+    height: 40px;
+    width: 100%;
+    background-color:lightgray ;
+    text-align: center;
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: none;
+    
+   
+    
+    
+ 
+}
+.dailog-box .text{
+    margin: 2px;
+    border: none;
+}
+.dailog-header .cross{
+    background-color: red;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    border-radius: 60px;
+}
+.dailog-body {
+   height: 100%;
+   width: 300px;
+   padding: 5px;
+  
+   
+   
+ 
+}
+.dailog-body .textArea{
+    height: 200px;
+    width: 100%;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
